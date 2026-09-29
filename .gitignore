@@ -1,0 +1,9 @@
+venv/
+.venv/
+ pycache/
+ *.pyc
+ .env
+ db.sqlite3
+ .vscode/
+ .idea/
+django
