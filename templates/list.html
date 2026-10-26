@@ -1,0 +1,5 @@
+<ul>
+    {% for expedition in expeditions %}
+        <li><a href="{% url 'details' expedition.pk %}">{{ expedition.reference }}</a>-{{ expedition.entreprise }}</li>
+    {% endfor %}
+</ul>
